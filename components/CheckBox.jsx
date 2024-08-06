@@ -83,10 +83,10 @@ const CheckBox = () => {
           <span className="checkmark"></span>
         </label>
       </div>
-      <div className="horizontal">
-        <hr />
-      </div>
       <div className="show-page">
+        <div className="horizontal">
+          <hr />
+        </div>
         <div className="item-page">
           <p>Page 1</p>
           <label className="container">
@@ -118,10 +118,10 @@ const CheckBox = () => {
         <div className="horizontal">
           <hr />
         </div>
+        <button className="btn" onClick={showAllPage}>
+          Done
+        </button>
       </div>
-      <button className="btn" onClick={showAllPage}>
-        Done
-      </button>
     </div>
   );
 };
